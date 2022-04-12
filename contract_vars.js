@@ -8,22 +8,22 @@ var ABI = [
     'name': 'constructor'
   },
   {
-    'anonymous': False,
+    'anonymous': false,
     'inputs': [
       {
-        'indexed': True,
+        'indexed': true,
         'internalType': 'address',
         'name': 'owner',
         'type': 'address'
       },
       {
-        'indexed': True,
+        'indexed': true,
         'internalType': 'address',
         'name': 'approved',
         'type': 'address'
       },
       {
-        'indexed': True,
+        'indexed': true,
         'internalType': 'uint256',
         'name': 'tokenId',
         'type': 'uint256'
@@ -33,22 +33,22 @@ var ABI = [
     'type': 'event'
   },
   {
-    'anonymous': False,
+    'anonymous': false,
     'inputs': [
       {
-        'indexed': True,
+        'indexed': true,
         'internalType': 'address',
         'name': 'owner',
         'type': 'address'
       },
       {
-        'indexed': True,
+        'indexed': true,
         'internalType': 'address',
         'name': 'operator',
         'type': 'address'
       },
       {
-        'indexed': False,
+        'indexed': false,
         'internalType': 'bool',
         'name': 'approved',
         'type': 'bool'
@@ -58,16 +58,16 @@ var ABI = [
     'type': 'event'
   },
   {
-    'anonymous': False,
+    'anonymous': false,
     'inputs': [
       {
-        'indexed': True,
+        'indexed': true,
         'internalType': 'address',
         'name': 'previousOwner',
         'type': 'address'
       },
       {
-        'indexed': True,
+        'indexed': true,
         'internalType': 'address',
         'name': 'newOwner',
         'type': 'address'
@@ -77,22 +77,22 @@ var ABI = [
     'type': 'event'
   },
   {
-    'anonymous': False,
+    'anonymous': false,
     'inputs': [
       {
-        'indexed': True,
+        'indexed': true,
         'internalType': 'address',
         'name': 'from',
         'type': 'address'
       },
       {
-        'indexed': True,
+        'indexed': true,
         'internalType': 'address',
         'name': 'to',
         'type': 'address'
       },
       {
-        'indexed': True,
+        'indexed': true,
         'internalType': 'uint256',
         'name': 'tokenId',
         'type': 'uint256'
